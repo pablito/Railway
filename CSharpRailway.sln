@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{23E48A75-B8E8-450E-941C-21660D815AE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD60F1F2-8E61-480F-820E-CB7103C4C28E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CSharpRailway", "src\CSharpRailway\CSharpRailway.xproj", "{862CDBEB-3A72-49CD-82CF-64617B4A9253}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{862CDBEB-3A72-49CD-82CF-64617B4A9253}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{862CDBEB-3A72-49CD-82CF-64617B4A9253}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{862CDBEB-3A72-49CD-82CF-64617B4A9253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862CDBEB-3A72-49CD-82CF-64617B4A9253}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{862CDBEB-3A72-49CD-82CF-64617B4A9253} = {23E48A75-B8E8-450E-941C-21660D815AE6}
+	EndGlobalSection
+EndGlobal
